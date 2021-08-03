@@ -1,0 +1,13 @@
+@keyframes mix-rotation {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.mix-rotation {
+  animation: mix-rotation 20s linear infinite;
+}
